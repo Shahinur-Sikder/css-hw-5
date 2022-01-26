@@ -1,0 +1,224 @@
+/*This is my css page */
+body{
+    width: 1300px;
+    margin: auto;
+    background-color: lightblue;
+}
+.h2-1{
+    background-color: teal;
+}
+.h2-2{
+    background-color: rgb(60, 179, 113);
+}
+.h2-3{
+    background-color: #ff3b48;
+}
+.h2-4{
+    background-color: hsl(0, 100%, 50%);
+}
+.div1{
+    background-color: green;
+    opacity: .5;
+}
+.div2{
+    background-color: green;
+    opacity: .7;
+}
+.div3{
+    background-color: green;
+    opacity: 1;
+}
+.div4{
+    background-color: rgb(255, 213, 71,.4);
+}
+.div5{
+    background-color: rgb(255, 213, 71,.8);
+}
+.div6{
+    background-color: rgb(255, 213, 71,1);
+}
+.banner{
+    background-image: url(../image/lake.jpg);
+    padding: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top right;
+}
+.container{
+    width: 600px;
+    margin: auto;
+}
+.container h1{
+    font-size: 50px;
+    color: white;
+}
+.container p{
+    font-size: 20px;
+    color: white;
+}
+.box{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(17, 134, 42);
+    padding: 50px;
+    border: 5px solid black;
+    margin-left: 100px;
+}
+.solid{
+    outline: 5px solid red;
+    margin-bottom: 4px;
+}
+.dotted{
+    outline: 5px dotted red;
+    margin-bottom: 4px;
+}
+.dashed{
+    outline: 5px dashed red;
+    margin-bottom: 4px;
+}
+.doubel{
+    outline: 5px double red;
+    margin-bottom: 4px;    
+}
+.groove{
+    outline: 5px groove red;
+    margin-bottom: 4px;
+}
+.ridge{
+    outline: 5px ridge red;
+    margin-bottom: 4px;
+}
+.inset{
+    outline: 5px inset red;
+    margin-bottom: 4px;
+}
+.outset{
+    outline: 5px outset red;
+    margin-bottom: 4px;
+}
+.text1 h2{
+    color: white;
+    background-color: green;
+    padding: 5px;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.text-decoration .a1{
+    text-decoration: none;
+}
+.text-decoration .a2{
+    text-decoration: overline;
+}
+.text-decoration .a3{
+    text-decoration: line-through;
+}
+.text-transform .h41{
+    text-transform: uppercase;
+}
+.text-transform .h42{
+    text-transform: lowercase;
+}
+.text-transform .h43{
+    text-transform: capitalize;
+}
+.text-indent{
+    text-indent: 150px;
+}
+.letter-spacing{
+    letter-spacing: 10px
+}
+.line-height{
+    font-size: 18px;
+    line-height: 40px;
+}
+.word-spacing{
+    font-size: 18px;
+    word-spacing: 30px;
+}
+.text-shadow{
+    text-transform: uppercase;
+    text-shadow: 2px 2px red;
+}
+.hotpink{
+    font-size: 20px;
+    text-decoration: none;
+}
+.hotpink:hover{
+    color: hotpink;
+    text-decoration: underline;
+}
+ul{
+    list-style: square;
+}
+ol{
+    list-style: circle;
+}
+
+.customers{
+    width: 100%;
+}
+.customers,tr,th,td{
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.customers th{
+    color: white;
+    background-color: #04AA6D;
+}
+.clearfix{
+    overflow: hidden;
+}
+.box_1{
+    height: 150px;
+    background-color: green;
+    float: left;
+    width: 25%;
+}
+.box_2{
+    height: 150px;
+    background-color: yellow;
+    float: left;
+    width: 25%;
+}
+.box_3{
+    height: 150px;
+    background-color: teal;
+    float: left;
+    width: 25%;
+}
+.box_4{
+    height: 150px;
+    background-color: lime;
+    float: left;
+    width: 25%;
+}
+
+.form{
+    width: 100%;
+    border: 5px solid #ddd;
+    padding: 20px;
+    
+
+}
+
+label{
+    font-size: 25px;
+}
+.name{
+    font-size: 20px;
+    padding: 8px;
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+}
